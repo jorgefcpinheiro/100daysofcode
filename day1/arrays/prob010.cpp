@@ -21,6 +21,7 @@ int main () {
     int size = 0;
     printf("Input the number of elements to be stored in the array: "); scanf("%d", &size);
     int arr[size];
+    printf("Input %d elements in the array: \n", size);
     for(int i = 0; i < size; i++){
         printf("element - %d: ", i); scanf("%d", &arr[i]);
     }
